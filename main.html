@@ -4,10 +4,34 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Job App Form</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form action="#" Method="post">
+	<label for="name">Name*:</label>
+	<input type="text" name="name" value="name" id="name" required><br>
+	<label for="email">Email*:</label>
+	<input type="email" name="email" value="priyasing@gmail.com" id="email" required><br>
+	<label for="gender">Gender*:</label>
+	<label for="male">male:</label>
+	<input type="radio" name="gender" required>
+	<label for="female">Female:</label>
+	<input type="radio" name="gender" required><br>
+    <label for="laptop brand">Laptop Brands:</label>
+		<select>
+			<option>Apple</option>
+			<option>Asus</option>
+			<option>HP</option>
+		</select><br>
+	<label for="age">Age*:</label>
+	<input type="age" name="age" id="age" required><br>
+	<label for="dob">DOB*:</label>
+	<input type="date" name="dob" id="dob" required><br>
+	<label for="password">Password*:</label>
+	<input type="password" name="password" id="password" value="password" required><br>
+	<button type="submit">submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
